@@ -8,14 +8,17 @@
     text-align: center;
     margin: 0 auto 24px;
     border-radius: 16px;
+    
 }
 
 
 .card header{
     display: block;
     background-color: transparent;
-    position: static; 
-           
+    position: static;
+    padding: 0;
+    margin-bottom: 24px;
+             
 
 }
 
@@ -35,3 +38,27 @@
     margin-top: 24px;
     display: inline-block;
 }
+
+@media screen and (min-width: 768px) {
+  .card{
+    width: 588px;
+    height: 308px;
+    
+  }
+  .card header h3{
+    font-size: 48px;
+    
+}
+
+.card header span{
+    font-size: 40px;
+    
+}
+  
+  footer{
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+
