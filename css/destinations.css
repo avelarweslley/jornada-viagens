@@ -38,17 +38,11 @@
   background-size: cover;
 }
 
-.destinations-items h4 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-  margin-top: 24px;
+.content-title{
+   margin-top: 24px;
 }
 
-.destinations-items p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
-  line-height: 32px;
-}
+
 .destinations footer {
   width: 100%;
 }
