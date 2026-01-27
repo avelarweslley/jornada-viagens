@@ -37,27 +37,31 @@ button {
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
 }
 
-.section-title h2{
+.section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
   margin: 0;
   text-align: center;
 }
+.section-title {
+  width: 280px;
+  margin: 88px auto 32px;
+}
 
-.section-title hr{
+.section-title hr {
   background-color: var(--secondary-color);
   width: 180px;
   height: 4px;
   border: none;
-  margin: 16px auto 32px;
+  margin: 16px auto 0;
 }
 
-.botton{
+.botton {
   min-width: 280px;
   height: 64px;
   color: var(--text-secondary-color);
@@ -68,25 +72,30 @@ body{
   line-height: 64px;
   text-decoration: none;
   font-size: 20px;
-  
 }
 
 @media screen and (min-width: 768px) {
-  .section-title h2{
+  .section-title h2 {
     font-size: 32px;
-
   }
-  
+  .section-title {
+    width: 100%;
+    margin: 88px auto 32px;
+  }
 }
 
-@media screen  and (min-width: 1024px) {
-  .section-title hr{
-    margin: 16px auto 64px
-
+@media screen and (min-width: 1024px) {
+  .section-title hr {
+    margin: 16px auto 0px;
   }
-  
-  .botton:hover{
+
+  .botton:hover {
     background-color: var(--primary-color);
   }
+}
 
+@media screen and (min-width: 1440px) {
+  .section-title {
+    margin: 104px auto 64px;
+  }
 }

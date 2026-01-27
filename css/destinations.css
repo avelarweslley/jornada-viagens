@@ -1,5 +1,5 @@
 .destinations {
-  padding: 0 24px 88px;
+  margin: 0 24px;
 }
 .destinations-items {
   display: flex;
@@ -49,13 +49,12 @@
   font-weight: var(--text-weight);
   line-height: 32px;
 }
-.destinations footer{
-    width: 100%;
+.destinations footer {
+  width: 100%;
 }
 
 footer .botton {
   text-align: center;
-  
 }
 
 @media screen and (min-width: 768px) {
@@ -75,14 +74,14 @@ footer .botton {
     background: url(../img/Osaka-tablet-desktop.jpg) no-repeat;
     background-size: cover;
   }
-  .destinations footer{
+  .destinations footer {
     width: 280px;
-}
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .destinations {
-    padding: 0 120px 88px;
+    margin: 0 120px;
   }
   .destinations-items {
     flex-direction: row;
