@@ -55,14 +55,21 @@
 
   .payments .content {
     display: flex;
-giy    justify-content: space-between;
+    justify-content: space-between;
   }
 
   .payments .content .image-gallery {
-    width: 790px;
+    width: 50%;
+    margin: 0;
+
   }
 
   .payments .content .text-content {
     width: 360px;
+    
+  }
+
+  .payments .content .text-content .content-title{
+    margin: 0 0 24px;
   }
 }
