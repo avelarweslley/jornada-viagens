@@ -47,6 +47,12 @@ nav {
 .list-links li{
   margin: 16px 0;
 }
+
+.list-links li .link-pacotes{
+  border-bottom: 1px solid #ffff;
+}
+
+
 .list-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;
