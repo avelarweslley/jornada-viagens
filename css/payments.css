@@ -1,6 +1,18 @@
 .payments {
   margin: 0 24px;
 }
+
+.payments.link .content-title {
+  margin-top: 0;
+}
+
+.payments.link .content-title span {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin-bottom: 24px;
+  display: inline-block;
+}
+
 .payments .content .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -28,6 +40,24 @@
   grid-column: span 2;
 }
 
+.payments.link .content .image-gallery .image.first {
+  background: url(../img/pacote-viagem-mobile-1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments.link .content .image-gallery .image.second {
+  background: url(../img/pacote-viagem-mobile-2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments.link .content .image-gallery .image.third {
+  background: url(../img/pacote-viagem-mobile-3.jpg) no-repeat;
+  background-size: cover;
+}
+.payments.link .content .image-gallery .image.third.colspan-2 {
+  grid-column: span 2;
+}
+
 @media screen and (min-width: 768px) {
   .payments {
     margin: 0 60px;
@@ -46,6 +76,21 @@
     background: url(../img/people-tablet-desktop.jpg) no-repeat;
     background-size: cover;
   }
+
+  .payments.link .content .image-gallery .image.first {
+    background: url(../img/pacote-viagem-tablet-1.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments.link .content .image-gallery .image.second {
+    background: url(../img/pacote-viagem-tablet-2.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments.link .content .image-gallery .image.third {
+    background: url(../img/pacote-viagem-tablet-3.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -59,17 +104,35 @@
   }
 
   .payments .content .image-gallery {
-    width: 50%;
+    width: 65%;
     margin: 0;
-
   }
 
   .payments .content .text-content {
     width: 360px;
-    
   }
 
-  .payments .content .text-content .content-title{
+ .payments.link .content .text-content {
+    width: 360px;
+    margin: auto 0;
+  }
+
+  .payments .content .text-content .content-title {
     margin: 0 0 24px;
+  }
+
+  .payments.link .content .image-gallery .image.first {
+    background: url(../img/pacote-viagem-desktop-1.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments.link .content .image-gallery .image.second {
+    background: url(../img/pacote-viagem-desktop-2.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments.link .content .image-gallery .image.third {
+    background: url(../img/pacote-viagem-tablet-3.jpg) no-repeat;
+    background-size: cover;
   }
 }

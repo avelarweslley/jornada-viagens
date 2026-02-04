@@ -53,7 +53,7 @@ body {
   margin: 88px auto 32px;
 }
 
-.section-title hr {
+.hr-titulo {
   background-color: var(--secondary-color);
   width: 180px;
   height: 4px;
@@ -97,7 +97,7 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-  .section-title hr {
+  .section-title .hr-titulo {
     margin: 16px auto 0px;
   }
 
