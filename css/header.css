@@ -46,7 +46,7 @@ nav {
   margin: 16px 0;
 }
 
-.list-links li .link-pacotes {
+.list-links li .active {
   text-decoration: underline;
 }
 
