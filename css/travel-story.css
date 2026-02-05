@@ -1,0 +1,106 @@
+.experiences {
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px;
+  gap: 32px;
+}
+.travel-story .section-title {
+  margin-bottom: 56px;
+}
+.travel-story .experiences .bloco.chegada {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.travel-story .experiences .bloco h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  text-align: left;
+  margin: 0 0 24px 0;
+}
+
+.travel-story .experiences .bloco p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  text-align: left;
+}
+
+.travel-story .experiences .bloco .chegada-img {
+  background: url(../img/Blog-chegada-mobile.jpg) no-repeat;
+  background-size: cover;
+  height: 360px;
+  width: 100%;
+}
+
+.travel-story .experiences .bloco.vista .vista-img {
+  background: url(../img/Blog-vista-mobile.jpg) no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.travel-story .experiences .bloco.vista p {
+  font-size: 14px;
+  font-weight: var(--text-weight);
+  line-height: 28px;
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .experiences {
+    margin: 0 60px;
+  }
+
+  .travel-story .experiences .bloco.chegada {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .travel-story .experiences .bloco .chegada-img {
+  background: url(../img/Blog-chegada-tablet.jpg) no-repeat;
+  background-size: cover;
+  height: 360px;
+  min-width: 312px;
+} 
+
+ .travel-story .experiences .bloco .text-chegada{
+    height: 360px;
+    min-width: 312px;
+ }
+
+ .travel-story .experiences .bloco.vista .vista-img {
+  background: url(../img/Blog-vista-tablet.jpg) no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+}
+
+@media screen and (min-width: 1440px) {
+  .experiences {
+    margin: 0 118px;
+    gap: 48px;
+  }
+
+  .travel-story .experiences .bloco .chegada-img {
+  background: url(../img/Blog-chegada-desktop.jpg) no-repeat;
+  background-size: cover;
+  height: 360px;
+  min-width: 588px;
+} 
+
+ .travel-story .experiences .bloco .text-chegada{
+    height: 360px;
+    min-width: 588px;
+ }
+
+ .travel-story .experiences .bloco.vista .vista-img {
+  background: url(../img/Blog-vista-desktop.jpg) no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+
+}
