@@ -9,6 +9,10 @@
   gap: 24px;
 }
 
+.destinations.blog .destinations-items {
+  gap: 40px;
+}
+
 .destinations-items .item {
   display: flex;
   flex-direction: column;
@@ -23,9 +27,24 @@
   margin-bottom: 24px;
 }
 
+.destinations.blog .destinations-items header {
+  margin-bottom: 16px;
+}
+
 .item-img {
   width: 100%;
   height: 360px;
+}
+
+.destinations.blog .content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+.destinations.blog .item-img {
+  width: 100%;
+  height: 300px;
 }
 
 .item-img.tokyo {
@@ -38,8 +57,26 @@
   background-size: cover;
 }
 
+.destinations.blog .item-img.Osaka {
+  background: url(../img/Blog-Osaka-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.destinations.blog .item-img.Hiroshima {
+  background: url(../img/Blog-Hiroshima-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.destinations.blog .item-img.Kyoto {
+  background: url(../img/Blog-Kyoto-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
 .content-title {
-  margin-top: 24px;
+  margin: 24px auto;
+}
+.destinations.blog .content-title {
+  margin: 16px auto 8px;
 }
 
 .destinations footer {
@@ -62,6 +99,11 @@ footer .botton {
     height: 452px;
   }
 
+  .destinations.blog .item-img {
+    width: 100%;
+    height: 300px;
+  }
+
   .item-img.tokyo {
     background: url(../img/Tokyo-tablet-desktop.jpg) no-repeat;
     background-size: cover;
@@ -70,6 +112,22 @@ footer .botton {
     background: url(../img/Osaka-tablet-desktop.jpg) no-repeat;
     background-size: cover;
   }
+
+  .destinations.blog .item-img.Osaka {
+    background: url(../img/Blog-Osaka-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .destinations.blog .item-img.Hiroshima {
+    background: url(../img/Blog-Hiroshima-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .destinations.blog .item-img.Kyoto {
+    background: url(../img/Blog-Kyoto-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
   .destinations footer {
     width: 280px;
   }
@@ -79,16 +137,47 @@ footer .botton {
   .destinations {
     margin: 0 120px;
   }
+
   .destinations-items {
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     gap: 24px;
   }
+
+  .destinations.blog .destinations-items {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 24px;
+  }
+
+
   .item-img {
     width: 100%;
     height: 452px;
   }
+
+  .destinations.blog .item-img {
+    width: 100%;
+    min-width: 384px;
+    height: 300px;
+  }
+
+  .destinations.blog .item-img.Osaka {
+    background: url(../img/Blog-Osaka-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .destinations.blog .item-img.Hiroshima {
+    background: url(../img/Blog-Hiroshima-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .destinations.blog .item-img.Kyoto {
+    background: url(../img/Blog-Kyoto-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+
 }
-
-
