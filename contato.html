@@ -51,9 +51,51 @@
           <h1>Entre em contato!</h1>
           <hr class="hr-titulo" />
           <p>
-            Dúvidas, sugestões, problemas para resolver? Temos uma equipe de plantão para ajudar você!
+            Dúvidas, sugestões, problemas para resolver? Temos uma equipe de
+            plantão para ajudar você!
           </p>
         </div>
+      </section>
+      <section class="formulario">
+        <div class="section-title">
+          <h2>Preencha o formulário:</h2>
+          <hr class="hr-titulo" />
+        </div>
+        <p>
+          Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+          problemas, trazer dicas e orientações objetivas para tornar sua
+          experiência o mais prazerosa e tranquila possível. Preencha seus dados
+          que vamos retornar seu contato conforme a urgência do seu chamado.
+          Pode confiar!
+        </p>
+        <form action="#" method="get">
+          <fieldset>
+            <input type="text" name="userName" placeholder="Seu nome" /><br />
+            <input
+              type="tel"
+              name="userPhone"
+              placeholder="Telefone"
+              required
+            /><br />
+            <input
+              type="email"
+              name="userEmail"
+              placeholder="Email"
+              required
+            /><br />
+            <input
+              type="text"
+              name="userTopic"
+              placeholder="Assunto"
+              pattern="[0-9]{11}"
+            /><br />
+
+            <label for="comment">Assunto</label>
+            <br />
+            <textarea name="userComment" id="comment"></textarea>
+          </fieldset>
+          <button class="botton" aria-label="Enviar dados do formulário" type="submit">Enviar!</button>
+        </form>
       </section>
     </main>
   </body>
