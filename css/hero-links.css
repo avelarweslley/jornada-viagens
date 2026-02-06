@@ -22,12 +22,22 @@
 .hero-contents.contato {
   background: url(../img/Banner-contato-mobile.png) no-repeat;
   background-size: cover;
-  
+}
+
+.hero-contents.sucesso-img {
+  background: url(../img/Banner-contato-mobile.png) no-repeat;
+  background-size: cover;
 }
 
 .hero-link .hero-contents h1 {
   color: var(--text-secondary-color);
   font-size: 48px;
+  font-weight: var(--title-weight);
+}
+
+.hero-link .hero-contents .sucesso {
+  color: var(--text-secondary-color);
+  font-size: 40px;
   font-weight: var(--title-weight);
 }
 
@@ -72,7 +82,12 @@
     background: url(../img/Banner-Contato-tablet.jpg) no-repeat;
     background-size: cover;
     padding: 183px 95px;
-    
+  }
+
+  .hero-link .hero-contents .sucesso {
+    color: var(--text-secondary-color);
+    font-size: 32px;
+    font-weight: var(--title-weight);
   }
 }
 
@@ -107,6 +122,6 @@
   .hero-contents.contato {
     background: url(../img/Banner-Contato-desktop.jpg) no-repeat;
     background-size: cover;
-    padding: 209.26px 741px 155.74px 120px;
+    padding: 209.26px auto 155.74px 120px;
   }
 }
