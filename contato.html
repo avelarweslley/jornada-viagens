@@ -70,31 +70,50 @@
         </p>
         <form action="#" method="get">
           <fieldset>
-            <input type="text" name="userName" placeholder="Seu nome" /><br />
             <input
+              class="campo-nome"
+              type="text"
+              name="userName"
+              placeholder="Seu nome"
+            />
+            <input
+              class="meio-tel"
               type="tel"
               name="userPhone"
               placeholder="Telefone"
               required
-            /><br />
+            />
             <input
+              class="meio-email"
               type="email"
               name="userEmail"
               placeholder="Email"
               required
-            /><br />
+            />
             <input
+              class="campo-texto"
               type="text"
               name="userTopic"
               placeholder="Assunto"
               pattern="[0-9]{11}"
-            /><br />
+            />
+            <div class="campo-comment">
+              <label for="comment">Assunto</label>
 
-            <label for="comment">Assunto</label>
-            <br />
-            <textarea name="userComment" id="comment"></textarea>
+              <textarea
+                
+                name="userComment"
+                id="comment"
+              ></textarea>
+            </div>
           </fieldset>
-          <button class="botton" aria-label="Enviar dados do formulário" type="submit">Enviar!</button>
+          <button
+            class="botton"
+            aria-label="Enviar dados do formulário"
+            type="submit"
+          >
+            Enviar!
+          </button>
         </form>
       </section>
     </main>
