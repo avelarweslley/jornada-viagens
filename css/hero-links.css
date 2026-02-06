@@ -19,6 +19,12 @@
   padding: 81px 24px;
 }
 
+.hero-contents.contato {
+  background: url(../img/Banner-contato-mobile.png) no-repeat;
+  background-size: cover;
+  
+}
+
 .hero-link .hero-contents h1 {
   color: var(--text-secondary-color);
   font-size: 48px;
@@ -61,6 +67,13 @@
   .hero-contents.blog p {
     width: 579px;
   }
+
+  .hero-contents.contato {
+    background: url(../img/Banner-Contato-tablet.jpg) no-repeat;
+    background-size: cover;
+    padding: 183px 95px;
+    
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -89,6 +102,11 @@
   .hero-contents.blog {
     background: url(../img/Banner-blogpost-desktop.jpg) no-repeat;
     background-size: cover;
-    
+  }
+
+  .hero-contents.contato {
+    background: url(../img/Banner-Contato-desktop.jpg) no-repeat;
+    background-size: cover;
+    padding: 209.26px 741px 155.74px 120px;
   }
 }
